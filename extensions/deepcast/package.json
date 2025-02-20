@@ -41,6 +41,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -55,6 +80,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -71,6 +121,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -85,6 +160,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -101,6 +201,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -115,6 +240,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -131,6 +281,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -145,6 +320,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -161,6 +361,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -175,6 +400,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -191,6 +441,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -205,6 +480,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -221,6 +521,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -235,6 +560,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -251,6 +601,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -265,6 +640,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -281,6 +681,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -295,6 +720,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -311,6 +761,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -325,6 +800,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -341,6 +841,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -355,6 +880,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -371,6 +921,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -385,6 +960,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -401,6 +1001,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -415,6 +1040,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -431,6 +1081,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -445,6 +1120,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },
@@ -461,6 +1161,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -476,6 +1201,31 @@
           "required": false,
           "placeholder": "Text"
         }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
+        }
       ]
     },
     {
@@ -490,6 +1240,31 @@
           "type": "text",
           "required": false,
           "placeholder": "Text"
+        }
+      ],
+      "preferences": [
+        {
+          "title": "Formality",
+          "label": "Formality",
+          "name": "formality",
+          "required": false,
+          "description": "Configure Formality",
+          "default": "default",
+          "type": "dropdown",
+          "data": [
+            {
+              "title": "Default",
+              "value": "default"
+            },
+            {
+              "title": "Prefer Informal",
+              "value": "prefer_informal"
+            },
+            {
+              "title": "Prefer Formal",
+              "value": "prefer_formal"
+            }
+          ]
         }
       ]
     },

@@ -1,4 +1,14 @@
-import { Form, ActionPanel, Action, showToast, Toast, Icon, LaunchProps, getPreferenceValues } from "@raycast/api";
+import {
+  Form,
+  ActionPanel,
+  Action,
+  showToast,
+  Toast,
+  Icon,
+  LaunchProps,
+  getPreferenceValues,
+  popToRoot,
+} from "@raycast/api";
 import { useEffect, useState } from "react";
 import {
   Formality,
@@ -36,10 +46,32 @@ function SwitchLanguagesAction(props: { onSwitchLanguages: () => void }) {
 type LaunchContext = {
   translation?: string;
   sourceLanguage?: SourceLanguage;
+  // as deeplink options
+  targetLanguage?: string;
+  text?: string;
+  formality?: string;
 };
 
 const Command = (props: LaunchProps<{ launchContext?: LaunchContext }>) => {
   // Check whether component is called with an existing value for translation
+  if (props.launchContext && props.launchContext?.text) {
+  //   (async () => {
+  //     console.log(props.launchContext);
+  //     const a = sendTranslateRequest(
+  //       {
+  //         text: props.launchContext.text,
+  //         targetLanguage: props.launchContext.targetLanguage as TargetLanguage,
+  //         sourceLanguage: props.launchContext.sourceLanguage,
+  //         formality: props.launchContext.formality as Formality,
+  //         onTranslateAction: "none",
+  //       },
+  //       true,
+  //     )
+  //   return <TranslationView translation={"hoe"} sourceLanguage={props.launchContext?.sourceLanguage} />;
+    // })();
+    
+    
+  }
   if (props?.launchContext?.translation) {
     const translation = props?.launchContext?.translation;
     const sourceLanguage = props?.launchContext?.sourceLanguage;

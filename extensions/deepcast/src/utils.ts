@@ -7,6 +7,7 @@ import {
   launchCommand,
   LaunchType,
   closeMainWindow,
+  LaunchProps,
 } from "@raycast/api";
 import got, { HTTPError, RequestError } from "got";
 import { StatusCodes, getReasonPhrase } from "http-status-codes";
@@ -61,19 +62,22 @@ export async function readContent() {
   }
 }
 
-export async function sendTranslateRequest({
-  text: initialText,
-  sourceLanguage,
-  targetLanguage,
-  onTranslateAction,
-  formality,
-}: {
-  text?: string;
-  sourceLanguage?: SourceLanguage;
-  targetLanguage: TargetLanguage;
-  onTranslateAction?: Preferences["onTranslateAction"] | "none";
-  formality: Formality;
-}) {
+export async function sendTranslateRequest(
+  {
+    text: initialText,
+    sourceLanguage,
+    targetLanguage,
+    onTranslateAction,
+    formality,
+  }: {
+    text?: string;
+    sourceLanguage?: SourceLanguage;
+    targetLanguage: TargetLanguage;
+    onTranslateAction?: Preferences["onTranslateAction"] | "none";
+    formality: Formality;
+  },
+  flag = false,
+) {
   try {
     const prefs = getPreferenceValues<Preferences>();
     const { key } = prefs;
@@ -98,6 +102,9 @@ export async function sendTranslateRequest({
           },
         })
         .json<{ translations: { text: string; detected_source_language: SourceLanguage }[] }>();
+      if (flag) {
+        return { translation, detectedSourceLanguage };
+      }
       switch (onTranslateAction) {
         case "clipboard":
           await Clipboard.copy(translation);
@@ -137,9 +144,10 @@ export async function sendTranslateRequest({
     await showToast(Toast.Style.Failure, "Please select the text to be translated");
   }
 }
-
-export async function translate(target: TargetLanguage, text?: string, formality?: Formality) {
-  await sendTranslateRequest({ targetLanguage: target, text: text, formality: formality ?? "default" });
+export async function translate(target: TargetLanguage, props: LaunchProps) {
+  const text = props.arguments?.text ?? props.fallbackText;
+  const formality = (props.launchContext?.formality as Formality) ?? "default";
+  await sendTranslateRequest({ targetLanguage: target, text, formality });
 }
 
 export const source_languages = {

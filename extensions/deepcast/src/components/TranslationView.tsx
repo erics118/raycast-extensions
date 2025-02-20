@@ -3,6 +3,7 @@ import { SourceLanguage, source_languages } from "../utils";
 
 export const TranslationView = (props: { translation: string | null; sourceLanguage?: string }) => {
   const translation = props.translation;
+
   const sourceLanguage = source_languages[props.sourceLanguage as SourceLanguage] ?? "unknown language";
   const sourceLanguageMessage = `Translated from ${sourceLanguage}`;
 
