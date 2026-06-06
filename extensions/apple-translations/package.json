@@ -1,0 +1,68 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "apple-translations",
+  "title": "Apple Translations",
+  "description": "Translate text with Apple's on-device translation APIs",
+  "icon": "command-icon.png",
+  "author": "erics118",
+  "license": "MIT",
+  "platforms": [
+    "macOS"
+  ],
+  "commands": [
+    {
+      "name": "translate-text",
+      "title": "Translate Text",
+      "description": "Translate text locally with Apple's on-device translation models",
+      "mode": "view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "preferredInputSource",
+      "type": "dropdown",
+      "title": "Preferred Input Source",
+      "description": "Try selected text first or read from the clipboard first when prefilling the form.",
+      "required": false,
+      "default": "selected",
+      "data": [
+        {
+          "title": "Selected Text",
+          "value": "selected"
+        },
+        {
+          "title": "Clipboard",
+          "value": "clipboard"
+        }
+      ]
+    },
+    {
+      "name": "defaultTargetLanguage",
+      "type": "textfield",
+      "title": "Default Target Language Identifier",
+      "description": "BCP-47 identifier for the default target language, such as en, es, fr, or ja.",
+      "required": false,
+      "default": "en"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.94.0",
+    "@raycast/utils": "^1.10.1"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.6",
+    "@types/node": "^22.13.10",
+    "@types/react": "^19.0.10",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "prepublishOnly": "echo \"\\n\\nUse \\`npm run publish\\` to publish this Raycast extension.\\n\\n\" && exit 1",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
